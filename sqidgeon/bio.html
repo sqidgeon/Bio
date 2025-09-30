@@ -139,11 +139,14 @@ playPauseBtn.addEventListener('click', () => {
 
 
 // Seek audio when progress bar is changed
-progress.addEventListener('input', () => {
-  if (audio.duration) {
-    audio.currentTime = (progress.value / 100) * audio.duration;
-  }
-});
+document.addEventListener("DOMContentLoaded", function () {
+    const myButton = document.getElementById("myButton");
+    if (myButton) {
+      myButton.addEventListener("click", function () {
+        // your code
+      });
+    }
+  });
 
 </script>
 
