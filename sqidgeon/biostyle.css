@@ -4,7 +4,7 @@ body {
   color: lightgray;
 
   /* Background image setup */
-  background-image: url('poster.jpg');
+  background-image: url('sqideon/poster.jpg');
   background-repeat: no-repeat;
   background-size: cover;         /* Cover entire area */
   background-position: center;    /* Centered */
