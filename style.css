@@ -261,3 +261,20 @@ h1 {
   box-shadow: 0 0 6px #b49fddcc;
   transition: background 0.3s ease;
 }
+
+@media (max-width: 480px) {
+  .circle-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .circle-img {
+    width: 45px;
+    height: 30px;
+  }
+
+  .image-row {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
